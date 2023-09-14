@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #182c61;
+    color: rgb(228, 224, 224);
+}
+
+header, 
+.content,
+form button {
+    font-family: 'Bungee';
+}
+
+section p {
+    margin-bottom: 8px; /* cria espacamento embaixo do paragrafo */
+    font-family: 'Skranji';
+}
+
+header nav li {
+    display: inline;
+    padding: 8px;
+    font-size: 16px;
+}
+
+header nav li a {
+    color: rgb(228, 224, 224);
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1280;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .teste {
+    display: flex;
+    align-items: center;
+}
+
+.brand-list img,
+.social-images img {
+    height: 24px;
+    max-width: 1280px;
+}
+
+.brand-list li {
+    display: inline;
+}
+
+section {
+    color: rgb(228, 224, 224);
+}
+
+section h2 {
+    margin-bottom: 16px; /* cria espacamento embaixo do titulo "Sobre a Loja" e o paragrafo */
+    text-align: center;
+    font-size: 40px;
+    color: rgb(228, 224, 224);
+    width: 580px;
+    font-family: 'Skranji';
+}
+
+section h2 img {
+    height: 130px;
+    max-width: 1280px;
+}
+
+section p {
+    margin-bottom: 36px; /* cria espacamento embaixo do paragrafo */
+    text-align: center;
+    width: 550px;
+}
+
+section .container {
+    align-items: flex-start; /* sobrepoe o align-itens anterior na linha 33 == cascata CSS */
+}
+
+.god-image {
+    max-width: 1280;
+    width: 100%;
+}
+
+.content {
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 70px;
+    padding: 8px;
+}
+
+.formulario {
+    justify-content: space-between;
+}
+
+form input {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form button {
+    display: block;
+    width: 100;
+    margin-bottom: 8px;
+    padding: 12px;
+    color: rgb(34, 33, 33);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #475ea1;
+    color: rgb(228, 224, 224);
+}
+
+section h3 {
+    margin-bottom: 16px; /* cria espacamento embaixo do titulo "Sobre a Loja" e o paragrafo */
+    text-align: left;
+    color: rgb(228, 224, 224);
+}
+
+.social-images li {
+    display: inline;
+    margin-right: 8px;
+    
+}
+
+.social-images li a {
+    text-decoration: none;
+}
+
+.social-images {
+    margin-left: 1200px;
+    display: inline;
+}
+
+header nav li a:hover {
+    color: #000106;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #182c61;
+    color: white;
+    font-size: 10px;
+}
